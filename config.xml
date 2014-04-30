@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+	<id>widget login-video-chat</id>
+	<type>widget</type>
+	<category>
+		<main>login</main>
+	</category>
+	<name>
+		<en>login-video-chat</en>
+		<ko>login-video-chat</ko>
+	</name>
+	<version>0.2</version>
+	<author>JaeHo Song</author>
+	<email>thruthesky@gmail.com</email>
+	<short>
+		<en>This login widget is for the theme - login-video-chat.</en>
+		<ko>This login widget is for the theme - login-video-chat.</ko>
+	</short>
+	<detail>
+		<en>This login widget is for the theme - login-video-chat.</en>
+		<ko>This login widget is for the theme - login-video-chat.</ko>
+	</detail>
+</config>

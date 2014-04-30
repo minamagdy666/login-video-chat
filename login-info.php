@@ -6,11 +6,7 @@
 			<a href='<?=url_bbs()?>/member_confirm.php?url=register_form.php'>내 프로필</a>
 		</div>
 		<div class='upper_right'>
-		<? if ( admin() ) {  ?>			
-			<span class='admin_link'><a href="<?=x::url_admin()?>">X ADMIN</a></span>			
-		<?}
-		else if ( super_admin() ){
-		?>
+		<?if ( admin() ){?>
 			<span class='admin_link'><a href="<?=x::url_admin()?>">X ADMIN</a><span class='divider'></span><a href="<?php echo G5_ADMIN_URL ?>">ADMIN</a></span>			
 		<?
 		}

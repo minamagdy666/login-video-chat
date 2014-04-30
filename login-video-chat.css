@@ -113,8 +113,8 @@
 }
 .login .login-menus .upper_right .divider{
 	display:inline-block;
-	border-right:2px solid #e3eaed;
-	height:12px;
+	border-right:1px solid #e3eaed;
+	height:11px;	
 	margin:0 5px;
 }
 

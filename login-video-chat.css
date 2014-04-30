@@ -1,0 +1,160 @@
+.login {
+	background-color: #96b2bc;	
+	font-family: dotum;	
+	width:250px;
+	font-size:15px;
+}
+
+.login > .inner {
+	padding: 13px;
+}
+
+.login .login-username input, .login .login-password input {
+	width:95%;
+	padding:2.5%;
+	border: 0;
+	margin-bottom:10px;
+	border:1px solid #697c83;
+}
+
+.login .login-username input:focus, .login .login-password input:focus, .login .login-submit input:focus {
+	outline: 0;
+}
+
+.login .login-submit {	
+	margin-bottom: 12px;
+}
+
+.login .login-submit input {
+	border: 0;
+	background: #ecf1f2;
+	width: 100%;	
+	padding:10px 0;
+	color: #9cb6c0;
+	cursor:pointer;
+}
+
+.login .login-remember {		
+	float:left;
+	width:40%;
+	color:#ecf1f2;
+	font-size:13px;
+	margin-top:2px;
+}
+
+.login .login-remember img{		
+	cursor:pointer;
+	position:relative;
+	top:-1px;
+}
+
+.login .login-remember .inner {
+	text-align:left;
+}
+
+.login-remember .remember-checkbox, .login-remember .remember-text {
+	display: inline-block;
+}
+
+.login .login-divider {
+	border-top: solid 1px #aab2bd;
+}
+
+.login .register-lost-password {	
+	float:left;
+	text-align:right;
+	width:60%;
+	color:#ecf1f2;	
+}
+
+.login .register-lost-password a{		
+	color:#ecf1f2;
+	font-size:13px;	
+	text-decoration:none;
+}
+
+.login .login-info {
+	text-align: center;
+}
+
+.login-info .nickname {
+	margin-bottom: 6px;
+	font-size: 14px;
+	padding:7px 0;
+	color:#ffffff;
+	border-bottom:1px solid #bed2d9;
+}
+
+.login .top_info {
+	margin: 12px 0 13px 0;
+}
+
+.login .login-menus {
+	text-align:left;	
+}
+
+.login .login-menus a{
+	color:#e3eaed;	
+	text-decoration:none;
+}
+
+.login .login-menus .upper_left{
+	width:45%;
+	text-align:left;	
+	float:left;
+	margin-bottom:10px;
+}
+
+.login .login-menus .upper_right{
+	text-align:right;
+	width:55%;
+	float:left;
+	margin-bottom:10px;
+}
+.login .login-menus .upper_right .divider{
+	display:inline-block;
+	border-right:2px solid #e3eaed;
+	height:12px;
+	margin:0 5px;
+}
+
+.login .login-menus .user_message {
+	margin-bottom:10px;
+}
+
+.login .login-menus .user_message img{
+	position:relative;
+	top:-3px;
+}
+
+.login .login-menus .user_message .memo-not-read{
+	position:relative;
+	top:-1px;
+	font-size:14px;
+}
+
+.login .login-menus .border_bottom{
+	border-bottom:1px solid #bed2d9;
+	margin-bottom:10px;	
+}
+
+.login .login-menus .user_message{
+	width:50%;
+	float:left;
+}
+
+.login .login-menus .site_management{
+	width:50%;
+	float:left;
+	text-align:right;
+}
+
+.login .logout .inner a {
+	width:100%;
+	display:inline-block;
+	background-color:#ecf1f2;
+	font-weight:bold;
+	color: #a1bac3;
+	padding: 10px 0;	
+	text-decoration:none;
+}
